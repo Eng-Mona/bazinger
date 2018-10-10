@@ -1,0 +1,235 @@
+body{
+    margin:0px;
+    padding:0px;
+    direction: ltr;
+    text-align: center;  
+    font-family: 'Lato-Black','Lato-Bold','Lato-Light','Lato-Regular';
+}
+@font-face{
+    font-family: 'Lato-Black';
+   src: url("Lato-Black.ttf");
+   font-family: 'Lato-Bold';
+   src: url("Lato-Bold.ttf");
+   font-family: 'Lato-Light';
+   src: url("Lato-Light.ttf");
+   font-family: 'Lato-Regular';
+   src: url("Lato-Regular.ttf");
+}
+.section {
+    width:100%;
+    height: auto;
+    padding-bottom: 283px;
+    padding-top: 77px;
+    box-sizing: border-box;
+  } 
+
+.container{
+  width: 1170px;
+  height: auto;
+  margin: 0 auto;
+}
+  .navSection{
+      background-color: #111f30;
+  }
+ 
+
+/* ++++++++++++++++++++++++++++++++++++++  HeroSection  ++++++++++++++++++++++++++++++++++++++++++++ */
+.navbar{
+    width: 100%;
+    height: auto;
+}  
+.HeroSection{
+    
+    height: 863px;
+    background-image :url("../image/main.png");
+    Background-size:cover;
+    background-repeat: no-repeat;
+  }
+
+.ahover:hover{
+    text-decoration: underline;
+}
+.clear{
+    clear: both;
+}
+.logo{
+    width: 20%;
+    height: auto;
+    float: left;
+   text-align: left;
+}
+.menu{
+    
+    width: 80%;
+    height: auto;
+    float: right;
+    text-align: right;
+    padding-top: 20px;
+    box-sizing: border-box;
+    
+}
+ .menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline-block;
+    /*floar :left ===  display: inline-block;*/
+}
+.menu ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left:10px;
+    text-transform: uppercase;
+}
+.menu ul li:first-child a{
+    margin-left:0px;
+
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+    color:#4acaff;
+}
+.menu ul li a.active{
+    /* text-decoration:underline;*/
+     border-top:3px solid #4acaff;
+     padding-top: 40px;
+     box-sizing: border-box;
+      /*?????????????????//*/
+  }
+  /* ---------------------- end nav--------------------------------------------- */
+  /* ++++++++++++++++++++==== hero section starts++++++++++++++++++++++++++++++++ */
+  .heroSection{
+      height:707px;
+      background-image: url(../image/heroPhoto.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: white;
+  }
+  h1{
+      font-family: "Lato-Bold.ttf";
+      font-size: 40px;
+  }
+  .heroSection p{
+      font-size: 18px;
+      font-family: "Lato-Light";
+      padding: 0px;
+      padding-bottom: 20px;
+      box-sizing: border-box;
+  }
+
+ .alink{
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 24px 55px;
+    border: 2px solid #e4e5e6;
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+    /* letter-spacing: 2.5px; */
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.alink:hover {
+    /* color: #4bcaff; */
+    cursor: pointer;
+    border: 1px solid #4bcaff;
+    border-bottom: 5px solid #277697;
+    background-color: #4bcaff;
+}
+.bb{
+    padding-left: 500px;
+    box-sizing: border-box;
+    padding-top: 120px;
+}
+.heroLinks{
+    text-align: left;
+}
+.leftlbutton{
+    margin-right: 40px;
+    box-sizing: border-box;
+}
+.heroSocialLinks{
+    margin-top:52px;
+    
+    
+    
+}
+a.socialIcons{
+    font-size:24px;
+    background-color: #161d23;
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+     text-align: center;
+     padding-top: 2px;
+    /* ??????????????????????? why it dosn't use the lineheight????????????????????????????/ */
+     line-height:30;
+     display: inline-block;
+   color:white;
+}
+
+.secoundSection{
+    background-color: #f9f9f9;
+    padding-bottom: 91px;
+    padding-top: 60px;
+    border-top:solid 6px #4bcaff;
+}
+
+
+.secP2{
+    font-size: 13px;
+    font-family: 'Lato-Regular';
+    color: #aaaaaa;
+}
+.row{
+ width: 100%;
+ height: auto;
+ /*margin-bottom: 123px   margin for the secound section is enough;*/
+}
+/*.row:last-child{
+ margin-bottom: 0px;
+}*/
+.oneBloc{
+ float: left;
+ width: 25%;
+ height:auto;
+}
+
+.contentDiv{
+ padding-left: 33px;
+ padding-right: 33px;
+ box-sizing: border-box;
+}
+h3{
+    font-size: 15px;
+    font-family: 'Lato-Bold';
+}
+h2{
+    font-size: 36px;
+    font-family: 'Lato-Black';
+}
+/* //////////////////////////////////////////////////////////////////////// */
+
+.footerr{
+    background-color: #414042;
+    color:#818081;
+    padding: 20px 0px;
+    box-sizing: border-box;
+}
+.left{
+    float: left;
+    text-align: left;
+    width: 50%;
+}
+.right{
+    float: right;
+    text-align: right;
+    width: 50%;
+
+}
