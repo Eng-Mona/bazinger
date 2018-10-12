@@ -1,2 +1,3 @@
 Hello
-Your site is ready to be published at https://eng-mona.github.io/bazinger/.
+My site URL https://eng-mona.github.io/bazinger/.
+https://designsmaz.com/freebies/bazinger-free-psd-landing-page/
